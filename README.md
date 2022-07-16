@@ -1,6 +1,6 @@
 Frontend ![](logo1.png) ![](logo3.png)  ![](logo2.png) 
 ========
-![](logo1.png)
+![](logo.png)
 ### Run:
 ```
 docker-compose up --build && \
