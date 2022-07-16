@@ -1,6 +1,6 @@
 Frontend ![](logo1.png) ![](logo3.png)  ![](logo2.png) 
 ========
-![](logo.png)
+![](picture.png)
 ### Run:
 ```
 docker-compose up --build && \
@@ -11,5 +11,5 @@ docker volume prune
 **Note:**
 
 Example web pages, simple run command and check in the browser
-+ [chairs](https://127.0.0.1:5000) - 127.0.0.1:5000
++ [chairs](https://github.com/Martin1403/Frontend/tree/master/webpages/chairs) 
 + 
