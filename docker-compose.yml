@@ -1,0 +1,15 @@
+version: "3.8"
+
+volumes:
+  chairs:
+
+services:
+  chairs-service:
+    container_name: chairs-service-c
+    build:
+      context: ./webpages/chairs
+    ports:
+      - "5000:5000"
+    volumes:
+      - chairs:/chairs
+    restart: always
