@@ -10,8 +10,7 @@ docker-compose down && \
 docker rmi $(docker images --format="{{.ID}}" frontend_*) --force && \
 docker volume prune
 ```
-**Note:**
 
-Example web pages, simple run command and check in the browser
-+ [chairs](https://github.com/Martin1403/Frontend/tree/master/webpages/chairs) Simple webpage about selling chairs ...
-+ 
+**Example web pages, simple run command and check in the browser.**
++ ###### [Chairs](https://github.com/Martin1403/Frontend/tree/master/webpages/chairs) is simple [webpage](http://localhost:5000/) about selling chairs...
++
