@@ -11,5 +11,5 @@ docker volume prune
 **Note:**
 
 Example web pages, simple run command and check in the browser
-+ [chairs](https://github.com/Martin1403/Frontend/tree/master/webpages/chairs) 
++ [chairs](https://github.com/Martin1403/Frontend/tree/master/webpages/chairs) Simple webpage
 + 
