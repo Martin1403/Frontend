@@ -2,6 +2,7 @@ version: "3.8"
 
 volumes:
   chairs:
+  omnifood:
 
 services:
   chairs-service:
@@ -12,4 +13,14 @@ services:
       - "5000:5000"
     volumes:
       - chairs:/chairs
+    restart: always
+
+  omnifood-service:
+    container_name: omnifood-service-c
+    build:
+      context: ./webpages/omnifood
+    ports:
+      - "5001:5001"
+    volumes:
+      - omnifood:/omnifood
     restart: always
