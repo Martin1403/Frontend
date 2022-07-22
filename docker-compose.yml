@@ -3,6 +3,7 @@ version: "3.8"
 volumes:
   chairs:
   omnifood:
+  natours:
 
 services:
   chairs-service:
@@ -23,4 +24,14 @@ services:
       - "5001:5001"
     volumes:
       - omnifood:/omnifood
+    restart: always
+
+  natours-service:
+    container_name: natours-service-c
+    build:
+      context: ./webpages/natours
+    ports:
+      - "5002:5002"
+    volumes:
+      - natours:/natours
     restart: always
