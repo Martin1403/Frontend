@@ -25,8 +25,4 @@ docker rmi app --force
 ```
 
 ###### [Links]():
-- ###### [resources](https://codingheroes.io/resources/) CSS HTML DESIGN ... resources 
-- ###### [open-colors](https://yeun.github.io/open-color) Colors with shades
-- ###### [coolors](https://coolors.co/) Color shader (contrast checker)
-- ###### [unsplash](https://unsplash.com/) Free images
-- ###### [icon-pack](https://heroicons.com/) Free SVG icons 
++ ######
