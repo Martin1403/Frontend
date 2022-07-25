@@ -4,6 +4,7 @@ volumes:
   chairs:
   omnifood:
   natours:
+  trillo:
 
 services:
   chairs-service:
@@ -34,4 +35,14 @@ services:
       - "5002:5002"
     volumes:
       - natours:/natours
+    restart: always
+
+  trillo-service:
+    container_name: trillo-service-c
+    build:
+      context: ./webpages/trillo
+    ports:
+      - "5003:5003"
+    volumes:
+      - trillo:/trillo
     restart: always
