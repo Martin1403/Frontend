@@ -1,6 +1,6 @@
 Frontend 
 ========
-![](image.png)
+![](logo.png)
 ### Run:
 ```
 git clone https://github.com/Martin1403/Frontend.git && \
