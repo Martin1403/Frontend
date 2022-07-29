@@ -13,6 +13,6 @@ COPY . /$APP
 ENV DOCKER=1
 ENV QUART_APP=$APP.app:app
 ENV QUART_ENV=development
-EXPOSE 5001
+EXPOSE 5005
 
-CMD quart run -h "0.0.0.0" -p 5001
+CMD quart run -h "0.0.0.0" -p 5005
