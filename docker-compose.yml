@@ -6,7 +6,7 @@ volumes:
   natours:
   trillo:
   nexter:
-
+  sysai:
 
 services:
   chairs-service:
