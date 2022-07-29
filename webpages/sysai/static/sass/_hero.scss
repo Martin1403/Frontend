@@ -1,0 +1,57 @@
+/*******************************/
+/*HERO SECTION*/
+/*******************************/
+
+.section-hero {
+  padding: 9.6rem;
+  background-color: $color-primary;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-row-gap: 0;
+
+  &-img {
+    grid-row: 1 / span 3;
+    grid-column: 2 / 3;
+
+  }
+  &-icon {
+    width: 100%;
+  }
+  &-buttons {
+    align-self: start;
+    display: flex;
+    gap: 2.4rem;
+
+
+  }
+  &-description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $color-blue-light-1;
+  }
+}
+
+
+.heading-primary {
+  align-self: end;
+}
+
+.btn:link,
+.btn:visited {
+  border: none;
+  text-decoration: none;
+  background-color: $color-secondary;
+  padding: 1.2rem 2.4rem;
+  border-radius: .8rem;
+  color: #ddd;
+  transition: all .2s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: $color-primary-dark;
+}

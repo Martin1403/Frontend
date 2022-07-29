@@ -58,3 +58,13 @@ services:
     volumes:
       - nexter:/nexter
     restart: always
+
+  sysai-service:
+    container_name: sysai-service-c
+    build:
+      context: ./webpages/sysai
+    ports:
+      - "5005:5005"
+    volumes:
+      - sysai:/sysai
+    restart: always
