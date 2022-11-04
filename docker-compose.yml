@@ -6,7 +6,6 @@ volumes:
   natours:
   trillo:
   nexter:
-  sysai:
 
 services:
   chairs-service:
@@ -57,14 +56,4 @@ services:
       - "5004:5004"
     volumes:
       - nexter:/nexter
-    restart: always
-
-  sysai-service:
-    container_name: sysai-service-c
-    build:
-      context: ./webpages/sysai
-    ports:
-      - "5005:5005"
-    volumes:
-      - sysai:/sysai
     restart: always
